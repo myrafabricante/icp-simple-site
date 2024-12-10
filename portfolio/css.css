@@ -1,0 +1,38 @@
+body {
+   
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+    .container {
+        text-align: center;
+    
+    }
+    
+    .box{
+        background-color: pink;
+        padding: 20px;
+        border-radius: 10px;
+        display:inline-block;
+        box-shadow: 0 4px 8px rgba(0, 0, 0.2);
+    }
+    .box h1{
+        font-size: 50px;
+        color: pink;
+        margin: 5px 0;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px gray;
+
+    }
+
+    .image img{
+        margin-top: 20px;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2)
+    }
